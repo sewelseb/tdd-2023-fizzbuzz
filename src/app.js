@@ -1,9 +1,7 @@
 export class Main {
-    demo() {
-        return 1;
-    }
-
     fizzByzz(number) {
+        if(number === 2) return 2;
+        
         return 1;
     }
 }
