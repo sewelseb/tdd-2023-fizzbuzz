@@ -1,7 +1,7 @@
 export class Main {
     fizzByzz(number) {
-        if(number === 3) return "fizz";
-        
+        if(number === 3) return "fiz";
+
         return number;
     }
 }
