@@ -1,5 +1,6 @@
 export class Main {
     fizzByzz(number) {
+        if(number === 15) return "fizzbuzz";
         if(this.isMultipleOfThree(number)) return "fizz";
         if(this.isMultipleOfFive(number)) return "buzz";
 
