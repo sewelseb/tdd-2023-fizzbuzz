@@ -1,9 +1,13 @@
 import { Main } from '../src/app.js';
 
-describe("A suite of test for the demo function of the main class", function() {
+describe("FizzBuzz function should return the answer for the game", function() {
     
-    it("demo", function() {
-        expect(1).toBe(1);
+    it("Main should return 1 when given 1", function() {
+        let main = new Main();
+
+        let result = main.fizzByzz(1);
+        
+        expect(result).toBe(1);
     });
     
 });
