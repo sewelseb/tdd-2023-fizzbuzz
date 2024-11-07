@@ -1,8 +1,12 @@
 export class Main {
     fizzByzz(number) {
-        if (number%3 === 0) return "Fizz";
+        if (this.isMultipleOf3(number)) return "Fizz";
         if(number === 5) return "Buzz";
         
         return number.toString();
+    }
+
+    isMultipleOf3(number) {
+        return number % 3 === 0;
     }
 }
