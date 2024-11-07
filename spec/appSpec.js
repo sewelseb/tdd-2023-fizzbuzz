@@ -50,6 +50,12 @@ describe("FizzBuzz function should return the answer for the game", function() {
 
         expect(result).toBe("Buzz");
     });
+
+    it("FizzBuzz should return FizzBuzz when given 15", function() {
+        const result = main.fizzByzz(15);
+        
+        expect(result).toBe("FizzBuzz");
+    });
 });
 
 
